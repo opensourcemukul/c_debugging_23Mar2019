@@ -1,0 +1,69 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Pranav0071/c_debugging_23Mar2019-master$ cc problem.c 
+In file included from problem.c:11:0:
+library.c:7:13: error: unknown type name ‘node’
+ int enqueue(node * ptr1, node * ptr2){
+             ^~~~
+library.c:7:26: error: unknown type name ‘node’
+ int enqueue(node * ptr1, node * ptr2){
+                          ^~~~
+problem.c: In function ‘main’:
+problem.c:22:2: warning: implicit declaration of function ‘enqueue’ [-Wimplicit-function-declaration]
+  enqueue(&a,&b);
+  ^~~~~~~
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Pranav0071/c_debugging_23Mar2019-master$ cc debugging.c 
+debugging.c: In function ‘main’:
+debugging.c:41:7: warning: passing argument 1 of ‘show’ from incompatible pointer type [-Wincompatible-pointer-types]
+  show(&a);
+       ^
+debugging.c:25:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int show(struct node * ptra){
+     ^~~~
+debugging.c:45:7: warning: passing argument 1 of ‘show’ from incompatible pointer type [-Wincompatible-pointer-types]
+  show(&b);
+       ^
+debugging.c:25:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int show(struct node * ptra){
+     ^~~~
+debugging.c:46:10: warning: passing argument 1 of ‘enqueue’ from incompatible pointer type [-Wincompatible-pointer-types]
+  enqueue(&a,&b);
+          ^
+debugging.c:20:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int enqueue(struct node * ptr1, struct node * ptr2){
+     ^~~~~~~
+debugging.c:46:13: warning: passing argument 2 of ‘enqueue’ from incompatible pointer type [-Wincompatible-pointer-types]
+  enqueue(&a,&b);
+             ^
+debugging.c:20:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int enqueue(struct node * ptr1, struct node * ptr2){
+     ^~~~~~~
+debugging.c:47:7: warning: passing argument 1 of ‘show’ from incompatible pointer type [-Wincompatible-pointer-types]
+  show(&a);
+       ^
+debugging.c:25:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int show(struct node * ptra){
+     ^~~~
+debugging.c:48:7: warning: passing argument 1 of ‘show’ from incompatible pointer type [-Wincompatible-pointer-types]
+  show(&b);
+       ^
+debugging.c:25:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int show(struct node * ptra){
+     ^~~~
+debugging.c:49:9: warning: passing argument 1 of ‘show_q’ from incompatible pointer type [-Wincompatible-pointer-types]
+  show_q(&a);
+         ^
+debugging.c:31:5: note: expected ‘struct node *’ but argument is of type ‘struct node (*)[50]’
+ int show_q(struct node * ptra){
+     ^~~~~~
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Pranav0071/c_debugging_23Mar2019-master$ ./a.out 
+
+0x7ffc7aa97990	[10	(nil)]
+
+0x7ffc7aa97cb0	[20	(nil)]
+enqueue...
+
+0x7ffc7aa97990	[10	(nil)]
+
+0x7ffc7aa97cb0	[20	(nil)]
+
+0x7ffc7aa97990	[10	(nil)]
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Pranav0071/c_debugging_23Mar2019-master$ 

@@ -1,0 +1,13 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/RitvikMahajan/c_debugging_23Mar2019-master/Solution$ cc solution.c 
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/RitvikMahajan/c_debugging_23Mar2019-master/Solution$ ./a.out 
+
+0x7fff54f90c50	{10	(nil)}
+
+0x7fff54f90c60	{20	(nil)}
+enqueue...
+
+0x7fff54f90c50	{10	(nil)}
+
+0x7fff54f90c60	{20	(nil)}
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/RitvikMahajan/c_debugging_23Mar2019-master/Solution$ 
+

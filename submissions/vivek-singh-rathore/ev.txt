@@ -1,0 +1,15 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/vivek-singh-rathore/c_debugging_23Mar2019-master$ cc problem.c 
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/vivek-singh-rathore/c_debugging_23Mar2019-master$ ./a.out 
+
+0x7ffc4c4765c0	10	(nil)
+
+0x7ffc4c4765d0	20	(nil)
+enqueue...
+
+0x7ffc4c4765c0	10	(nil)
+
+0x7ffc4c4765d0	20	(nil)
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/vivek-singh-rathore/c_debugging_23Mar2019-master$ 
+
+
+

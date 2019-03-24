@@ -1,0 +1,16 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/adityapratap72/c_debugging_23Mar2019-master$ cc problem.c 
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/adityapratap72/c_debugging_23Mar2019-master$ ./a.out 
+
+0x7ffd9535c840	10	(nil)
+
+0x7ffd9535c850	20	(nil)
+enqueue...
+
+0x7ffd9535c840	10	0x7ffd9535c850
+
+0x7ffd9535c850	20	(nil)
+
+0x7ffd9535c840	10	0x7ffd9535c850
+
+0x7ffd9535c850	20	(nil)
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/adityapratap72/c_debugging_23Mar2019-master$ 

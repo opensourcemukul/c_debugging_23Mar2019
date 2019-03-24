@@ -1,0 +1,18 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Kushagar-Mahajan/c_debugging_23Mar2019-master$ cc problem.c 
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Kushagar-Mahajan/c_debugging_23Mar2019-master$ ./a.out 
+
+0x7ffd355495b0	[0	0x6562b026]
+
+0x7ffd355496f0	[894736352	0xd74438002f0f5600]
+enqueue...
+
+0x7ffd355495b0	[20	0xd74438002f0f5600]
+
+0x7ffd355496f0	[894736352	0xd74438002f0f5600]
+
+0x7ffd355495b0	[20	0xd74438002f0f5600]
+Segmentation fault (core dumped)
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Kushagar-Mahajan/c_debugging_23Mar2019-master$ cc Debug_Kushagar 
+Debug_Kushagar: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Kushagar-Mahajan/c_debugging_23Mar2019-master$ 

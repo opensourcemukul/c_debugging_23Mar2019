@@ -1,0 +1,14 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/rohit9934/c_debugging_23Mar2019-master$ cc problem.c 
+In file included from problem.c:11:0:
+library.c:7:13: error: unknown type name ‘node’
+ int enqueue(node * ptr1, node * ptr2){
+             ^~~~
+library.c:7:26: error: unknown type name ‘node’
+ int enqueue(node * ptr1, node * ptr2){
+                          ^~~~
+problem.c: In function ‘main’:
+problem.c:22:2: warning: implicit declaration of function ‘enqueue’ [-Wimplicit-function-declaration]
+  enqueue(&a,&b);
+  ^~~~~~~
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/rohit9934/c_debugging_23Mar2019-master$ 
+

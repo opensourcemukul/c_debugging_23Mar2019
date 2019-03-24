@@ -1,0 +1,17 @@
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Rakshitsaini-o-src/c_debugging_23Mar2019-master/solution$ cc problem.c 
+cc: error: problem.c: No such file or directory
+cc: fatal error: no input files
+compilation terminated.
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Rakshitsaini-o-src/c_debugging_23Mar2019-master/solution$ cc solution.c 
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Rakshitsaini-o-src/c_debugging_23Mar2019-master/solution$ ./a.out 
+
+0x7ffd503590d0	{10	(nil)}
+
+0x7ffd503590e0	{20	(nil)}
+enqueue...
+
+0x7ffd503590d0	{10	(nil)}
+
+0x7ffd503590e0	{20	(nil)}
+purnendu@purnendu-HP-ProBook-4540s:~/c_debugging/submissions/Rakshitsaini-o-src/c_debugging_23Mar2019-master/solution$ 
+
